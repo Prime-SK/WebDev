@@ -27,7 +27,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.15rem 5%;
+    padding: .8rem 5%;
     background: linear-gradient(to right, #2E3594, #434DC8);
     display: flex;
     justify-content: space-between;
@@ -40,10 +40,18 @@ header a {
     text-decoration: none;
 }
 .logo {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
+.logo img {
+    margin-right: 10px; 
+    width: 30px; 
+}
+
 .navbar a {
     font-size: 1.15rem;
     opacity: .7;
@@ -79,7 +87,7 @@ a.login:hover{
     cursor: pointer;
     display: none;
 }
-@media (max-width: 750px){
+@media (max-width: 800px){
     .icon {
         display: inline-flex;
     }
